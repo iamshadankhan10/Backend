@@ -1,0 +1,18 @@
+----------- Instagram Clone ---------------
+==> Authentication
+    ==> register  
+        [ 1. User ka data save karna
+          2. Token user ko dena ]
+    ==> login
+    ==> logout (token blacklisting)
+    ==> [otp based registration]
+
+==> Post
+    ==> create
+    ==> can see the feed
+    ==> Like posts (collection types)
+    ==> save post
+
+==> Users
+    ==> followers
+    ==> following
