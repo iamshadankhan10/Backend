@@ -26,6 +26,10 @@ postRouter.get("/", identifyUser, postController.getPostController);
  */
 postRouter.get("/details/:postId", identifyUser, postController.getPostDetailsController);
 
-
+/**
+ * @route Post /api/posts/like/:postId [protected]
+ * - like a post with the id, also check whether the post belongs to the user that is request come from.
+ */
+postRouter.post("/like/:postId", identifyUser, postController.likePostController);
 
 module.exports = postRouter;
