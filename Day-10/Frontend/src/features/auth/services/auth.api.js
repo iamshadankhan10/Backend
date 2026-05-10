@@ -34,4 +34,13 @@ export async function login(username, password){
   }
 }
 
-export { register, login }
+export async function getMe(){
+  try {
+    const res = await api.get("/get-me")
+    return res.data;
+  } catch (error) {
+    console.error(error)
+  }
+}
+
+export { register, login, getMe }
