@@ -2,6 +2,7 @@ const express = require("express");
 const authRouter = express.Router();
 const authController = require("../controllers/auth.controller");
 const identifyUser = require("../middlewares/auth.middleware").identifyUser;
+
 /*
     Route: /api/auth/register
     Method: POST
