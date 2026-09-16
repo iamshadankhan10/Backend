@@ -1,0 +1,16 @@
+Four layer of Architecture :- 
+=> UI 
+    => UI dikhana user ko or navigate karna
+
+=> Hook
+    => Manage karna state and Api layer
+
+=> state
+    => state Manage
+        => loading
+        => user
+        => post list
+        => error
+
+=> Api
+    => Backend se communicate
